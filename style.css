@@ -1,0 +1,149 @@
+/*==============Шрифты========== */
+@import url("https://fonts.googleapis.com/css2?family=Shizuru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quintessential&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+/* ============STYLE========== */
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+   max-width: 80%;
+   margin-left: 10%;
+}
+
+.logo img {
+   margin-bottom: 15px;
+}
+
+header {
+   text-align: center;
+   margin-bottom: 25px;
+}
+
+header li {
+   display: inline-block;
+   border: 2px solid red;
+   border-radius: 5px;
+   margin: 5px;
+   box-shadow: 2px 5px;
+   font-size: 35px;
+}
+
+.homepage {
+   text-align: center;
+   border: 5px solid red;
+   box-shadow: 5px 5px 10px 5px hotpink;
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   padding-top: 25px;
+   margin: 0 auto;
+   margin-bottom: 25px;
+}
+
+.homepage a {
+   font-size: 20px;
+   color: rgb(0, 255, 98);
+   font-weight: 900;
+}
+
+.block1 {
+   text-align: center;
+   border: 10px dashed yellow;
+   margin-bottom: 25px;
+}
+.block1 h2 {
+   font-size: 35px;
+   color: blue;
+}
+.block1 p {
+   border: 5px dotted red;
+   padding: 15px;
+   margin: 25px;
+   font-family: "Shizuru", cursive;
+}
+
+.block2 {
+   text-align: center;
+   border-left: 20px double yellowgreen;
+   border-right: 20px double yellowgreen;
+   overflow: scroll;
+   max-height: 200px;
+   margin-bottom: 25px;
+}
+.block2 p {
+   font-family: "Supermercado One", cursive;
+   color: burlywood;
+}
+
+.block2 a {
+   color: brown;
+   font-size: 25px;
+}
+.block2 h2 {
+   font-size: 25px;
+   color: rgb(18, 117, 117);
+   font-weight: 900;
+}
+.block2 img {
+   max-width: 70%;
+}
+
+.block3 {
+   border-top: 5px solid blueviolet;
+   border-bottom: 5px solid blueviolet;
+   border-radius: 50px;
+   text-align: center;
+   margin-bottom: 25px;
+}
+
+.block3 h2 {
+   margin: 25px;
+   color: brown;
+   font-size: 25px;
+}
+
+.block3 img {
+   max-width: 70%;
+   margin-bottom: 25px;
+}
+.block3 p {
+   margin: 0px 30px 25px 25px;
+   padding: 15px;
+   box-shadow: 5px 5px 10px 5px hotpink;
+   border: 5px solid rgb(204, 170, 129);
+   font-family: "Quintessential", cursive;
+}
+
+.block4 {
+   text-align: center;
+   border-left: 10px solid rgb(0, 17, 255);
+   border-right: 10px solid rgb(255, 251, 0);
+   border-bottom: 10px dashed rgb(255, 0, 170);
+   border-top: 10px dotted rgb(0, 204, 255);
+   border-radius: 15px;
+   padding: 25px;
+   margin-bottom: 25px;
+}
+.block4 h2 {
+   margin-bottom: 25px;
+   font-size: 25px;
+   color: sandybrown;
+}
+.block4 img {
+   max-width: 20%;
+}
+
+footer {
+   max-width: 80%;
+   margin-left: 10%;
+   border: 5px solid rgb(170, 247, 163);
+   border-radius: 20% 20% 20% 10% / 20% 30% 40% 50%;
+
+   box-shadow: 10px 1px 10px 10px rgb(145, 105, 255);
+}
+footer p {
+   font-size: 25px;
+   font-family: "Lobster", cursive;
+   padding: 25px;
+}
